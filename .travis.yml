@@ -5,7 +5,7 @@ cache: bundler
 bundler_args: --without production
 env:
   global:
-    - CC_TEST_REPORTER_ID=000000000000000000000000000000000000000000000000000000000000
+    - CC_TEST_REPORTER_ID=9a7ec01b3ab827506a676292d84096a9923de3b53a9c8606dd4a66f927a4ce9c
     - CCTR=/tmp/cc-test-reporter
 before_install:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > $CCTR
